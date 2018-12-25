@@ -18,4 +18,4 @@ EXPOSE 1313
 
 ENTRYPOINT [ "hugo" ]
 
-CMD [ "server", "--bind", "0.0.0.0" ]
+CMD [ "server", "--bind", "0.0.0.0", "-D" ]
