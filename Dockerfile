@@ -1,16 +1,17 @@
-FROM alpine:3.8
-LABEL maintainer="llitfkitfk@gmail.com"
+FROM alpine:3.8 AS builder
 
 ENV HUGO_VERSION 0.53
 
 RUN set -x \
     && apk add --no-cache curl \
     && curl -fsSL -o /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
-    && tar xzf /tmp/hugo.tar.gz -C /tmp/ \
-    && mv /tmp/hugo /usr/local/bin/hugo \
-    && rm /tmp/hugo.tar.gz
+    && tar xzf /tmp/hugo.tar.gz -C /tmp/ 
 
-ADD . /blog
+FROM alpine:3.8
+LABEL maintainer="llitfkitfk@gmail.com"
+COPY --from=builder /tmp/hugo /usr/local/bin/
+
+COPY . /blog
 
 WORKDIR /blog
 
