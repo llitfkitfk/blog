@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('pull blog') {
+    stage('build') {
       steps {
-        sh 'docker pull llitfkitfk/blog'
+        sh 'docker build -t llitfkitfk/blog .'
       }
     }
     stage('update blog') {
