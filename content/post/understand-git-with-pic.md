@@ -5,11 +5,6 @@ lastmod: 2017-12-12T11:40:00+08:00
 draft: false
 tags: ["git"]
 categories: ["git"]
-author: "llitfkitfk"
-
-autoCollapseToc: true
-contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
-
 ---
 
 ## 集中式（svn） VS 分布式（git）版本控制系统
