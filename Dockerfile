@@ -5,7 +5,7 @@ ENV HUGO_VERSION 0.53
 
 RUN set -x \
     && apk add --no-cache curl \
-    && curl -sSLo /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
+    && curl -fsSL -o /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
     && tar xzf /tmp/hugo.tar.gz -C /tmp/ \
     && mv /tmp/hugo /usr/local/bin/hugo \
     && rm /tmp/hugo.tar.gz
