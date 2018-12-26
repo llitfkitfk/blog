@@ -8,8 +8,10 @@ services:
   blog:
     image: llitfkitfk/blog
     restart: always
-    networks:
-      - proxy
+    ports:
+      - 1313:1313
+    # networks:
+    #   - proxy
     environment:
       VIRTUAL_HOST: blog.gokit.info
       VIRTUAL_PORT: 1313
