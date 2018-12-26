@@ -17,7 +17,7 @@ docker logout'''
     }
     stage('update service') {
       steps {
-        sh 'docker service update --force blog_blog'
+        sh 'docker service update --image llitfkitfk/blog:latest blog_blog'
       }
     }
   }
