@@ -26,23 +26,23 @@ categories: ["Docker"]
 ### First-In, First-Out (FIFO)
 
 #### Message queue
-![](http://upload-images.jianshu.io/upload_images/590399-ee2a3535e668cd90.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-ee2a3535e668cd90.png)
 #### Message processing by containers
-![](http://upload-images.jianshu.io/upload_images/590399-98524da6481541fb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-98524da6481541fb.png)
 #### Container1 failed, message put on top of message queue
-![](http://upload-images.jianshu.io/upload_images/590399-05577875fff03192.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-05577875fff03192.png)
 #### After message B completed, message A processing by container2 
-![](http://upload-images.jianshu.io/upload_images/590399-5f241266fbfbde1d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-5f241266fbfbde1d.png)
 
 ### Messaging System
 
 * [Apache Kafka](https://kafka.apache.org/)
   
-    ![](http://upload-images.jianshu.io/upload_images/590399-e8a9edd982f0d399.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![](/images/attachment/590399-e8a9edd982f0d399.png)
 
 * [RabbitMQ](https://www.rabbitmq.com/)
     
-    ![](http://upload-images.jianshu.io/upload_images/590399-0cb1fa5cbeff031a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![](/images/attachment/590399-0cb1fa5cbeff031a.png)
 
 * [Redis-custom](https://redis.io/): [bull](https://www.npmjs.com/package/bull)
 
