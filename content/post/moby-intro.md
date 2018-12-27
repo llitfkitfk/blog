@@ -14,7 +14,7 @@ categories: ["Moby"]
 **Moby**是由Docker创建的一个开源框架，用于组装专门的容器系统，而无需重新设计轮子。它提供了几十个标准组件，并将它们组装成定制平台的框架。
 
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/590399-7938fa3e7a81631a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](/images/attachment/590399-7938fa3e7a81631a.png)
 
 ### 概述
 **Moby**的核心是组装专门的容器系统的框架。它提供了：
