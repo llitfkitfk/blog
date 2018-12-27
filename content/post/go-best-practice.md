@@ -1080,7 +1080,7 @@ func Save(w io.Writer, doc *Document) error
 
 将[接口隔离原则](https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99)应用于我们的`Save`功能，同时, 就需求而言, 得出了最具体的一个函数 - 它只需要一个可写的东西 - 并且它的功能最通用，现在我们可以使用`Save`将我们的数据保存到实现`io.Writer`的任何事物中。
 
-[[译注: 不理解设计原则部分的同学可以阅读Dave大神的另一篇<Go语言SOLID设计>]](https://www.jianshu.com/p/0aebd9618300)
+[[译注: 不理解设计原则部分的同学可以阅读Dave大神的另一篇<Go语言SOLID设计>]](https://blog.gokit.info/post/go-solid-design/)
 
 ### 7. 错误处理
 

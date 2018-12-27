@@ -102,6 +102,6 @@ android studio 3.0+ 支持有问题 [链接](https://github.com/golang/go/issues
 
 请手动构建生成aar文件, 然后加入app
 
-![](https://upload-images.jianshu.io/upload_images/590399-672bab2456d8da29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-672bab2456d8da29.png)
 
 ---
