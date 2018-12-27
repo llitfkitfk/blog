@@ -57,7 +57,7 @@ categories: ["golang"]
 
 所以，代码有单一功能原则从而有最少的原因来改变。
 
-* #####Coupling & Cohesion - 耦合与内聚
+* Coupling & Cohesion - 耦合与内聚
 
   这两个词语描绘了修改一段软件代码是何等的简单或困难。
 
@@ -68,7 +68,7 @@ categories: ["golang"]
 
   要描述Go语言的耦合与内聚，我们可以要谈论一下functions和methods，当讨论单一功能原则时它们很常见，但是我相信它始于Go语言的package模型。
 
-* #####Pakcage命名
+* Pakcage命名
 
   在Go语言中，所有的代码都在某个package中。好的package设计始于他的命名。package名字不仅描述了它的目的而且还是一个命名空间的前缀。Go语言标准库里有一些好的例子：
   * `net/http` - 提供了http客户端和服务
@@ -77,13 +77,13 @@ categories: ["golang"]
 
 在你自己的项目中使用其他pakcage时要用`import`声明，它会在两个package之间建立一个源码级的耦合。
 
-* #####糟糕的pakcage命名
+* 糟糕的pakcage命名
   
   关注于命名并不是在卖弄。糟糕的命名会失去罗列其目的的机会。
 
   比如说`server`、`private`、`common`、`utils` 这些糟糕的命名都很常见。这些package就像是一个混杂的场所，因为他们好多都是没有原因地经常改变。
 
-* #####Go语言的UNIX哲学
+* Go语言的UNIX哲学
 
   以我的观点，涉及到解耦设计必须要提及Doug McIlroy的Unix哲学：小巧而锋利的工具的结合解决更大的任务或者通常原创作者并没有预想到的任务。
 
@@ -177,7 +177,7 @@ func PrintLegs(c Cat) {
 
 基于class的编程语言，里氏替换原则通常被解释为一个抽象基类的各种具体子类的规范。但是Go语言没有class或者inheritance（继承），因此就不能以抽象类的层次结构实现替换。
 
-* #####Interfaces - 接口
+* Interfaces - 接口
 
   相反，Go语言的interface才有权替换。在Go语言中，type不需要声明他们具体要实现的某个interface，相反的，任何想要实现interface的type仅需提供与interface声明所匹配的方法。
 
