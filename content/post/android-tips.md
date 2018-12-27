@@ -6,6 +6,7 @@ draft: false
 tags: ["Android", "Tips"]
 categories: ["Android"]
 ---
+
 ### 1. 统一重复组件风格
 
 ```
