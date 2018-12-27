@@ -3,8 +3,8 @@ title: "SOLID Go Design - Go语言面向对象设计"
 date: 2016-09-08T16:54:00+08:00
 lastmod: 2018-12-27T17:00:00+08:00
 draft: false
-tags: ["golang", "SOLID", "design"]
-categories: ["golang"]
+tags: ["golang", "solid", "design"]
+categories: ["Golang"]
 ---
 
 

@@ -4,7 +4,7 @@ date: 2017-06-07T13:38:00+08:00
 lastmod: 2018-12-27T17:42:00+08:00
 draft: false
 tags: ["golang"]
-categories: ["golang"]
+categories: ["Golang", "图解"]
 ---
 
 [Golang Map & Slice params](http://www.cnblogs.com/snowInPluto/p/7477365.html)

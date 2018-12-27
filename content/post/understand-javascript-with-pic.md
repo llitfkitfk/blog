@@ -4,7 +4,7 @@ date: 2017-06-30T21:33:00+08:00
 lastmod: 2018-12-27T17:56:00+08:00
 draft: false
 tags: ["javascript"]
-categories: ["javascript"]
+categories: ["Javascript", "图解"]
 ---
 
 ### 构建四重奏

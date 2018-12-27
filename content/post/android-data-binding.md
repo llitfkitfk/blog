@@ -3,7 +3,7 @@ title: "Android Data Binding（数据绑定）用户指南"
 date: 2015-06-04T14:55:00+08:00
 lastmod: 2017-12-12T11:38:00+08:00
 draft: false
-tags: ["Android", "Data Binding"]
+tags: ["android", "data-binding"]
 categories: ["Android"]
 ---
 

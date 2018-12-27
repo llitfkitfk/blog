@@ -3,7 +3,7 @@ title: "Android Studio中Gradle使用详解"
 date: 2015-08-21T14:40:00+08:00
 lastmod: 2018-12-27T15:00:00+08:00
 draft: false
-tags: ["Android", "Gradle"]
+tags: ["android", "gradle"]
 categories: ["Android", "Gradle"]
 ---
 

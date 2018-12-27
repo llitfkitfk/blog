@@ -3,7 +3,7 @@ title: "Android ConstraintLayout详解"
 date: 2016-05-31T10:22:00+08:00
 lastmod: 2018-12-27T16:27:00+08:00
 draft: false
-tags: ["Android", "ConstraintLayout"]
+tags: ["android", "layout"]
 categories: ["Android"]
 ---
 

@@ -4,7 +4,7 @@ date: 2015-08-17T13:40:00+08:00
 lastmod: 2017-12-12T11:40:00+08:00
 draft: false
 tags: ["git"]
-categories: ["git"]
+categories: ["Git", "图解"]
 ---
 
 ## 集中式（svn） VS 分布式（git）版本控制系统

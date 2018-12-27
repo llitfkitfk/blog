@@ -3,8 +3,8 @@ title: "使用Go语言开发Android&IOS应用"
 date: 2015-09-11T15:00:00+08:00
 lastmod: 2018-12-27T15:39:00+08:00
 draft: false
-tags: ["golang", "Android", "Ios", "App"]
-categories: ["golang", "Android", "Ios"]
+tags: ["golang", "android", "ios", "app"]
+categories: ["Golang", "Android", "Ios"]
 ---
 
 

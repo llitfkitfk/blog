@@ -3,8 +3,8 @@ title: "学习开发IOS with Swift总结"
 date: 2015-09-16T15:23:00+08:00
 lastmod: 2018-12-27T15:51:00+08:00
 draft: false
-tags: ["Ios", "swift", "App"]
-categories: ["Ios", "swift"]
+tags: ["Ios", "swift", "app"]
+categories: ["Ios", "Swift"]
 ---
 
 *<排名分先后>*

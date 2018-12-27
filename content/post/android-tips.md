@@ -3,7 +3,7 @@ title: "Android Tips"
 date: 2015-06-24T19:02:00+08:00
 lastmod: 2018-12-27T14:00:00+08:00
 draft: false
-tags: ["Android", "Tips"]
+tags: ["android", "tips"]
 categories: ["Android"]
 ---
 

@@ -3,7 +3,7 @@ title: "Android开发总结"
 date: 2016-09-19T11:04:00+08:00
 lastmod: 2018-12-27T17:16:00+08:00
 draft: false
-tags: ["Android", "summary"]
+tags: ["android", "summary"]
 categories: ["Android"]
 ---
 

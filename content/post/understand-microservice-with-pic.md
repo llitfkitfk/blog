@@ -3,8 +3,8 @@ title: "微服务图解"
 date: 2017-02-10T11:08:00+08:00
 lastmod: 2018-12-27T17:29:00+08:00
 draft: false
-tags: ["Microservice"]
-categories: ["Microservice"]
+tags: ["microservice"]
+categories: ["Microservice", "图解"]
 ---
 
 ### 三层架构

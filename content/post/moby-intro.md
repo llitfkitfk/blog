@@ -3,7 +3,7 @@ title: "Moby 简介"
 date: 2017-04-20T14:59:00+08:00
 lastmod: 2018-12-27T17:40:00+08:00
 draft: false
-tags: ["Moby", "docker"]
+tags: ["moby", "docker"]
 categories: ["Moby"]
 ---
 
