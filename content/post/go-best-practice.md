@@ -2,7 +2,7 @@
 title: "Go语言实战"
 date: 2018-11-05T14:58:00+08:00
 lastmod: 2018-12-27T11:38:00+08:00
-draft: false
+draft: true
 tags: ["golang", "Best Practice"]
 categories: ["golang"]
 ---
