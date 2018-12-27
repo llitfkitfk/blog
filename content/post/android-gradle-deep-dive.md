@@ -181,7 +181,7 @@ $ ./gradlew deviceCheck - 远程设备运行测试
 $ ./gradlew installDebug/installRelease - 在设备商安装指定版本
 $ ./gradlew uninstall - 卸载
 ```
-![](http://upload-images.jianshu.io/upload_images/590399-670fc44f1771dae4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-670fc44f1771dae4.png)
 
 * Build Types不同版本的参数设置 - BuildConfig/Resource Value
 ```
@@ -337,7 +337,7 @@ dependencies {
 ```
 
 * Android Studio内添加依赖
-![](http://upload-images.jianshu.io/upload_images/590399-ef3784115ec26352.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-ef3784115ec26352.png)
 
 ### 四）构建变体
 
@@ -520,7 +520,7 @@ org.gradle.parallel=true # 并行构建
 org.gradle.daemon=true # 开启Gradle守护进程
 org.gradle.jvmargs=-Xms256m -Xmx1024m # 配置JVM<参照下图>
 ```
-![](http://upload-images.jianshu.io/upload_images/590399-cc4879a8290b1360.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/images/attachment/590399-cc4879a8290b1360.png)
 
 使用**Profiling**
 ```
