@@ -3,7 +3,7 @@ title: "Issues跟踪"
 date: 2016-11-03T14:09:00+08:00
 lastmod: 2018-12-27T17:19:00+08:00
 draft: false
-tags: ["Issues", "github", "react-native", "kubernetes"]
+tags: ["issues", "github", "react-native", "kubernetes"]
 categories: ["Issues"]
 ---
 
