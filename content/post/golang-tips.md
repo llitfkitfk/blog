@@ -1,7 +1,7 @@
 ---
 title: "Golang Tips"
 date: 2018-01-23T11:04:00+08:00
-lastmod: 2018-12-27T19:00:00+08:00
+lastmod: 2018-12-28T11:11:00+08:00
 draft: false
 tags: ["golang", "tips"]
 categories: ["Golang"]
@@ -118,6 +118,19 @@ categories: ["Golang"]
 ### Map
 
 ![](/images/attachment/590399-1abb34419b463225.png)
+
+
+## 图解interface
+
+### 定义 Animal interface
+![](/images/attachment/590399-b907aca8f8dee375.png)
+### 定义Lion实现Animal
+![](/images/attachment/590399-1fd7b12debd7357a.png)
+### 实例
+![](/images/attachment/590399-fc0b073bcb7d2f53.png)
+### 实例图解
+![](/images/attachment/590399-ccc037e16100d482.png)
+
 
 ## Go Channel 操作状态及结果
 
