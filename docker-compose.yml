@@ -5,8 +5,8 @@ networks:
     external: true
 
 services:
-  blog:
-    image: llitfkitfk/blog
+  dev:
+    build: .
     restart: always
     ports:
       - 1313:80

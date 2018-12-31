@@ -1,7 +1,7 @@
 ---
 title: "Docker Tips"
 date: 2018-01-02T12:33:00+08:00
-lastmod: 2018-12-27T18:42:00+08:00
+lastmod: 2018-12-31T16:17:00+08:00
 draft: false
 tags: ["docker", "tips"]
 categories: ["Docker"]
@@ -20,6 +20,12 @@ categories: ["Docker"]
 [Understand Kubernetes](https://www.youtube.com/playlist?list=PL7bmigfV0EqQw4WnD0wF-SRBYttCFeBbF)
 
 [Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down](https://youtu.be/90kZRyPcRZw)
+
+## 容器时间同步
+
+```
+-v /etc/localtime:/etc/localtime:ro 
+```
 
 ## Container Messaging
 
