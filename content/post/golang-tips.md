@@ -154,6 +154,15 @@ categories: ["Golang"]
 | 关闭 |     关闭     |                          panic                          |
 | 关闭 |   只能接收   |                        编译错误                         |
 
+
+## YouTube推荐视频
+
+[Kavya Joshi - Understanding Channels](https://youtu.be/KBZlN0izeiY)
+{{% youtube "KBZlN0izeiY" %}}
+
+[ Liz Rice - A Go Programmer's Guide to Syscalls](https://youtu.be/01w7viEZzXQ)
+{{% youtube "01w7viEZzXQ" %}}
+
 ## 理解 goroutine
 
 【编者的话】虽然已经有很多解释 goroutine 的优秀文章，但是对于初学者来说，大多都比较晦涩难懂，在这里总结一下自己对 goroutine 的理解以及相关资料

@@ -11,15 +11,19 @@ categories: ["Docker"]
 
 [Telegram Docker群组](https://t.me/dockertutorial)
 
-## YouTube Link
+## YouTube视频
 
 [Docker Storage: Designing a Platform for Persistent Data](https://embed.vidyard.com/share/k4bboQRbr3V28GQqgiWBEP)
 
+
 [Question: How do you deal with big companies that they can do it all?Speaker: #Solomon_Hykes](https://youtu.be/raOCEErZHQ0?t=2643)
+{{% youtube "raOCEErZHQ0" %}}
 
 [Understand Kubernetes](https://www.youtube.com/playlist?list=PL7bmigfV0EqQw4WnD0wF-SRBYttCFeBbF)
+{{% youtube "CuWSY_fwV6M" %}}
 
 [Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down](https://youtu.be/90kZRyPcRZw)
+{{% youtube "90kZRyPcRZw" %}}
 
 ## 容器时间同步
 
