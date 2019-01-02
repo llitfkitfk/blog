@@ -7,17 +7,22 @@ tags: ["docker", "network"]
 categories: ["Docker"]
 ---
 
-### 本文你会学到:
+### 本文你会学到
 
-`Docker`容器将软件包装在一个完整的文件系统中，该文件系统包含了可以安装到服务器的所有东西:代码、运行时、系统工具、系统库。这就保证了软件运行环境的一致。默认情况下`Docker`容器将应用程序还有底层基础架构彼此隔离，同时为应用程序提供额外的保护层。
+`Docker`容器将软件包装在一个完整的文件系统中，该文件系统包含了:代码、运行时、系统工具、系统库。
+容器保证了软件运行环境的一致。
+默认情况下`Docker`容器将应用程序与底层基础架构彼此隔离，还为应用程序提供了额外的保护层。
 
-如果应用程序需要和主机或外部网络相互通信怎么办？如何在保持应用程序可移植性，服务发现、负载平衡、安全性、性能以及可伸缩性的同时，设计一个网络以实现正确的连接？本文解决了这些网络设计挑战以及可用的工具和常见的部署模式。它没有指定或推荐物理网络设计，但提供了如何设计Docker网络的选项，同时考虑了应用程序和物理网络的约束。
+应用程序和主机或外部网络如何相互通信？
+在保持应用程序可移植性，服务发现、负载平衡、安全性、性能以及可伸缩性的同时，如何设计容器网络？
+本文解决了这些网络设计以及可用的工具和常见的部署模式的难题。
+同时也提供了如何在应用程序和物理网络的束缚内设计`Docker`网络。
 
-### 先决条件
-在继续之前，建议熟悉Docker概念和Docker Swarm：
+### 前提
+在阅读本文之前，建议先学习下`Docker`和`Docker Swarm`：
 
-* [Docker概念](https://docs.docker.com/engine/understanding-docker/)
-* [Docker Swarm](https://docs.docker.com/engine/swarm/)与[Swarm模式概念](https://docs.docker.com/engine/swarm/key-concepts/#/services-and-tasks)
+* [`Docker`](https://docs.docker.com/engine/understanding-docker/)
+* [`Docker Swarm`](https://docs.docker.com/engine/swarm/)与[`Swarm`模式](https://docs.docker.com/engine/swarm/key-concepts/#/services-and-tasks)
 
 
 #### 网络容器和微服务的挑战
