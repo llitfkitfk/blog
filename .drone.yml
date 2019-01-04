@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+- name: backend
+  image: alpine
+  commands:
+  - echo test
